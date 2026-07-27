@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ShelfSpan — Support</title>
+  <meta name="description" content="ShelfSpan (FreshDay) app support and FAQ" />
+  <style>
+    :root {
+      --bg: #f3f7f2;
+      --card: #ffffff;
+      --ink: #1c2a22;
+      --muted: #5a6b60;
+      --green: #3d8f5a;
+      --green-deep: #2a6b42;
+      --line: rgba(28, 42, 34, 0.10);
+      --accent-soft: rgba(61, 143, 90, 0.12);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(1200px 600px at 10% -10%, #dcecdc 0%, transparent 55%),
+        radial-gradient(900px 500px at 100% 0%, #e8f2e4 0%, transparent 50%),
+        var(--bg);
+      line-height: 1.65;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 40px 20px 72px; }
+    header {
+      margin-bottom: 28px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--line);
+    }
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 700;
+      font-size: 1.35rem;
+      letter-spacing: 0.01em;
+      color: var(--green-deep);
+    }
+    .brand span {
+      width: 28px; height: 28px; border-radius: 8px;
+      background: linear-gradient(145deg, #6bbf7a, var(--green-deep));
+      box-shadow: 0 6px 16px rgba(42, 107, 66, 0.25);
+    }
+    h1 { font-size: 1.75rem; margin: 14px 0 8px; font-weight: 700; }
+    .meta { color: var(--muted); font-size: 0.92rem; }
+    nav.toc {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 16px 18px;
+      margin: 22px 0 28px;
+    }
+    nav.toc strong { display: block; margin-bottom: 8px; }
+    nav.toc a {
+      display: block;
+      color: var(--green-deep);
+      text-decoration: none;
+      padding: 4px 0;
+    }
+    nav.toc a:hover { text-decoration: underline; }
+    section {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 22px 22px 18px;
+      margin-bottom: 16px;
+    }
+    h2 {
+      font-size: 1.15rem;
+      margin: 0 0 12px;
+      color: var(--green-deep);
+    }
+    h3 { font-size: 1rem; margin: 16px 0 8px; }
+    ul, ol { padding-left: 1.2em; margin: 8px 0; }
+    li { margin: 6px 0; }
+    .note {
+      background: var(--accent-soft);
+      border-radius: 10px;
+      padding: 12px 14px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    a { color: var(--green-deep); }
+    footer {
+      margin-top: 28px;
+      color: var(--muted);
+      font-size: 0.88rem;
+      text-align: center;
+    }
+    .lang { float: right; font-size: 0.9rem; margin-top: 4px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <a class="lang" href="../zh/support.html">中文</a>
+      <div class="brand"><span aria-hidden="true"></span>ShelfSpan</div>
+      <h1>Support</h1>
+      <p class="meta">Expiry &amp; warranty reminders · Updated: 2026-07-27</p>
+      <p class="meta">Also known as <strong>鲜期</strong> / FreshDay (engineering name).</p>
+    </header>
+
+    <nav class="toc" aria-label="Contents">
+      <strong>Contents</strong>
+      <a href="#about">1. About the app</a>
+      <a href="#getting-started">2. Getting started</a>
+      <a href="#features">3. Features</a>
+      <a href="#pro">4. Pro</a>
+      <a href="#permissions">5. Permissions</a>
+      <a href="#faq">6. FAQ</a>
+      <a href="#contact">7. Contact</a>
+    </nav>
+
+    <section id="about">
+      <h2>1. About the app</h2>
+      <p>ShelfSpan helps you track expiry and warranty dates for medicine, food, cosmetics, daily goods, electronics, and more—with local notifications and widgets.</p>
+      <p>No account is required. Your item list is stored on your device by default.</p>
+    </section>
+
+    <section id="getting-started">
+      <h2>2. Getting started</h2>
+      <ol>
+        <li>Open the app and tap <strong>+</strong> to add an item.</li>
+        <li>Choose a category and enter the name and dates (or use barcode scan / photo OCR to help).</li>
+        <li>Adjust reminder offsets per category in Reminder settings.</li>
+        <li>Add Home Screen or Lock Screen widgets to see what is expiring soon.</li>
+      </ol>
+    </section>
+
+    <section id="features">
+      <h2>3. Features</h2>
+      <h3>Categories</h3>
+      <p>Medicine, Food, Cosmetics, Daily Goods, Digital (electronics), and Other. Each category has tailored date fields and default reminder rules (for example, cosmetics support period-after-opening; digital focuses on warranty).</p>
+      <h3>Barcode scanning</h3>
+      <p>Scan a package barcode to look up product details. Networked lookup is a Pro feature and may be subject to quota limits. If nothing is found, enter details manually or use OCR.</p>
+      <h3>Photo OCR</h3>
+      <p>Photograph production dates, shelf life, or “use by” text to help fill the form. Always verify results before saving.</p>
+      <h3>Local reminders</h3>
+      <p>Local notifications fire before expiry according to your offsets. Enable Notifications in iOS Settings. If you save an item after the usual reminder time (e.g. 09:00), a catch-up alert may arrive shortly afterward.</p>
+      <h3>Widgets</h3>
+      <p>Widgets show upcoming expiries, category lists, and high-risk medicine on the Lock Screen. Data is shared on-device via an App Group.</p>
+      <h3>Backup</h3>
+      <p>Pro users can export or import JSON / Excel (optional photos) for device migration.</p>
+    </section>
+
+    <section id="pro">
+      <h2>4. Pro</h2>
+      <p>The free tier includes manual entry and basic reminders. Pro unlocks:</p>
+      <ul>
+        <li>Networked barcode product lookup</li>
+        <li>Photo OCR</li>
+        <li>Custom reminder rules</li>
+        <li>Backup export / import</li>
+      </ul>
+      <p>Yearly subscription and lifetime purchase are available (prices shown in-app / App Store). Purchases and Restore Purchases use your Apple ID.</p>
+      <div class="note">
+        Restore Purchases only restores entitlements already bought with the current Apple ID. If you have never purchased, “nothing to restore” is expected.
+      </div>
+    </section>
+
+    <section id="permissions">
+      <h2>5. Permissions</h2>
+      <ul>
+        <li><strong>Camera</strong> — scan barcodes and capture labels or photos.</li>
+        <li><strong>Photos</strong> — attach images from your library.</li>
+        <li><strong>Notifications</strong> — deliver expiry reminders.</li>
+      </ul>
+      <p>You can revoke access anytime in Settings. Turning a permission off disables that feature only.</p>
+    </section>
+
+    <section id="faq">
+      <h2>6. FAQ</h2>
+      <h3>I didn’t get today’s reminder</h3>
+      <ul>
+        <li>Confirm Notifications are allowed for the app.</li>
+        <li>Check that the category’s reminders are enabled and include day 0 (on the day).</li>
+        <li>If you edited the item after the scheduled morning time, a catch-up notification may arrive later.</li>
+      </ul>
+      <h3>Barcode lookup finds nothing</h3>
+      <ul>
+        <li>Many products are missing from public databases—enter details manually or use OCR.</li>
+        <li>If your Pro lookup quota is exhausted, wait for the next quota period or use manual / OCR entry.</li>
+      </ul>
+      <h3>OCR is inaccurate</h3>
+      <p>Poor lighting, glare, or tiny print reduce accuracy. Shoot the date area clearly and verify before saving.</p>
+      <h3>Widget looks stale</h3>
+      <p>Open the main app once, then refresh the Home Screen. iOS refreshes widgets on its own schedule—not every second.</p>
+      <h3>How do I delete my data?</h3>
+      <p>Deleting the app removes on-device items and settings. If you exported backups, delete those files separately wherever you stored them.</p>
+    </section>
+
+    <section id="contact">
+      <h2>7. Contact</h2>
+      <p>Email us (please include iOS version, app version, screenshots, and steps to reproduce):</p>
+      <p><a href="mailto:funcgis@163.com">funcgis@163.com</a></p>
+      <p class="note">Replace this address with your public support email before publishing, then set the Support URL in App Store Connect.</p>
+      <p>Related: <a href="./en/privacy.html">Privacy Policy</a> · <a href="../zh/support.html">中文技术支持</a></p>
+    </section>
+
+    <footer>
+      © 2026 ShelfSpan (FreshDay) · Support
+    </footer>
+  </div>
+</body>
+</html>
