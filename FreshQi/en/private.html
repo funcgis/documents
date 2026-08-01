@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>ShelfSpan — Privacy Policy</title>
-  <meta name="description" content="ShelfSpan (FreshDay) privacy policy" />
+  <title>FreshQi — Privacy Policy</title>
+  <meta name="description" content="FreshQi (engineering name FreshDay) privacy policy" />
   <style>
     :root {
       --bg: #f3f7f2;
@@ -113,11 +113,11 @@
 <body>
   <div class="wrap">
     <header>
-      <a class="lang" href="../zh/privacy.html">中文</a>
-      <div class="brand"><span aria-hidden="true"></span>ShelfSpan</div>
+      <a class="lang" href="../zh/private.html">中文</a>
+      <div class="brand"><span aria-hidden="true"></span>FreshQi</div>
       <h1>Privacy Policy</h1>
-      <p class="meta">Effective: 2026-07-27 · Last updated: 2026-07-27</p>
-      <p class="meta">Applies to <strong>ShelfSpan</strong> / <strong>鲜期</strong> (engineering name FreshDay, Bundle ID <code>com.funcgis.FreshDay</code>).</p>
+      <p class="meta">Effective: 2026-07-27 · Last updated: 2026-07-31</p>
+      <p class="meta">Applies to <strong>FreshQi</strong> / <strong>鲜期</strong> (engineering name FreshDay, Bundle ID <code>com.funcgis.FreshDay</code>).</p>
     </header>
 
     <nav class="toc" aria-label="Contents">
@@ -135,7 +135,7 @@
 
     <section id="overview">
       <h2>1. Overview</h2>
-      <p>This Privacy Policy explains how the ShelfSpan / FreshDay app (“the App”, “we”) handles information related to you.</p>
+      <p>This Privacy Policy explains how the FreshQi / 鲜期 app (“the App”, “we”) handles information related to you.</p>
       <p>Our principles: <strong>no account required</strong>; your item list and reminder settings are <strong>stored on your device by default</strong>; we do not sell your inventory data or use it for advertising profiles.</p>
       <div class="note">
         By using the App, you acknowledge this Policy. If you do not agree, please stop using the App and uninstall it.
@@ -149,9 +149,10 @@
       <p>Content you enter or generate, including:</p>
       <ul>
         <li>Item names, categories, notes, barcodes, and production / expiry / opening / warranty dates</li>
+        <li>Archive outcomes and optional amounts you enter (for waste / recovered insights)</li>
         <li>Photos you attach</li>
         <li>Reminder preferences (enabled categories and day offsets)</li>
-        <li>Local barcode learning cache and app settings</li>
+        <li>Local barcode cache, app settings, badge progress, and sealed annual-report summaries</li>
       </ul>
       <p>This data is stored locally (e.g. SwiftData / UserDefaults) and may be shared with widgets via the App Group <code>group.com.funcgis.FreshDay</code>. <strong>We do not automatically receive a copy of your item list.</strong></p>
 
@@ -173,7 +174,7 @@
           </tr>
           <tr>
             <td>Notifications</td>
-            <td>Local expiry reminders</td>
+            <td>Local expiry reminders and the annual-report reminder</td>
             <td>Delivered by iOS local notifications—not our push servers</td>
           </tr>
         </tbody>
@@ -182,29 +183,32 @@
       <h3>2.3 Data that may be sent when you use online features</h3>
       <p>Only when you use network-dependent features may limited data be sent:</p>
       <ul>
-        <li><strong>Barcode lookup</strong> — the product barcode; and an <strong>anonymous device identifier</strong> (an app-generated UUID, not your phone number or Apple ID) used for quota and Pro entitlement checks.</li>
+        <li><strong>Barcode lookup</strong> — the product barcode; and an <strong>anonymous device identifier</strong> (app-generated, not your phone number or Apple ID) used for lookup limits and Pro entitlement checks. Yearly and Lifetime plans have different annual lookup limits (see in-app User Guide).</li>
         <li><strong>Product metadata returned</strong> — public fields such as name, brand, size, category hints, or image URLs used to prefill the form.</li>
-        <li><strong>Barcode VIP sync</strong> — when our barcode backend is configured, Pro plan type (e.g. yearly / lifetime) and enabled status may be synced to enforce lookup quotas.</li>
+        <li><strong>Purchase status sync</strong> — when our barcode backend is configured, Pro plan type (e.g. yearly / lifetime) and enabled status may be synced to enforce lookup limits.</li>
       </ul>
       <p>Lookups may go through our configured API and/or third-party product databases (for example Open Food Facts or article-numbering services), depending on configuration.</p>
 
-      <h3>2.4 Purchases and Apple</h3>
+      <h3>2.4 Help &amp; Feedback (when you choose to send)</h3>
+      <p>If you use Settings → Help &amp; Feedback or email us, the message may include your written feedback, the reply email you provide, the app version, and an <strong>anonymous device identifier</strong> to help with support (for example lookup-limit questions). That identifier is not shown in the feedback UI; it is only included in the email body after you send. Mail is addressed to <a href="mailto:funcgis@163.com">funcgis@163.com</a>.</p>
+
+      <h3>2.5 Purchases and Apple</h3>
       <p>Subscriptions and lifetime unlocks are processed by the App Store / StoreKit. Apple handles payment details. We only learn entitlement status (e.g. whether Pro is active), not full card numbers.</p>
 
-      <h3>2.5 What we do not collect</h3>
+      <h3>2.6 What we do not collect</h3>
       <ul>
-        <li>No sign-up with name, email, or phone number</li>
+        <li>No sign-up with name, email, or phone number (you may optionally leave a reply email when sending feedback)</li>
         <li>No third-party advertising SDKs for behavioral tracking (current version)</li>
         <li>No App Tracking Transparency cross-app advertising identifier tracking</li>
-        <li>OCR / structured understanding prefer on-device processing (including system on-device capabilities when available); package photos are not uploaded as advertising material</li>
+        <li>Photo recognition prefers on-device processing; package photos are not uploaded as advertising material</li>
       </ul>
     </section>
 
     <section id="use">
       <h2>3. How we use information</h2>
       <ul>
-        <li>Provide expiry / warranty tracking, reminders, and widgets</li>
-        <li>Prefill product details from barcodes and enforce Pro lookup quotas</li>
+        <li>Provide expiry / warranty tracking, reminders, archive insights, annual reports, and widgets</li>
+        <li>Prefill product details from barcodes and enforce Pro lookup limits</li>
         <li>Validate purchases and help with support when you contact us</li>
         <li>Improve reliability based on issues you describe—not by silently uploading your inventory</li>
       </ul>
@@ -214,8 +218,9 @@
       <h2>4. Sharing &amp; third parties</h2>
       <p>We do not sell your personal information. Third parties are limited to what is needed to run the App:</p>
       <ul>
-        <li><strong>Apple</strong> — system services, StoreKit, and (when used) on-device Apple Intelligence / system OCR</li>
+        <li><strong>Apple</strong> — system services, StoreKit, and (when used) system recognition capabilities</li>
         <li><strong>Barcode / product data providers</strong> — receive the barcode and return public product metadata; their own privacy policies apply</li>
+        <li><strong>Feedback email you send</strong> — composed via the system Mail app to our support address after you confirm</li>
         <li><strong>Backups you export</strong> — once you share a file via Mail, AirDrop, cloud storage, etc., you control that distribution</li>
       </ul>
       <p>We may disclose information when required by law or to protect users and the public, to the extent permitted.</p>
@@ -225,7 +230,7 @@
       <h2>5. Storage &amp; security</h2>
       <ul>
         <li>Core item data remains on your device; uninstalling usually deletes local data.</li>
-        <li>The anonymous device ID and settings live in on-device storage; reinstalling may create a new ID and affect quota continuity.</li>
+        <li>The anonymous device identifier and settings live in on-device storage; reinstalling may create a new ID and affect lookup-limit continuity.</li>
         <li>We use reasonable safeguards for network requests, but no transmission is perfectly secure.</li>
       </ul>
     </section>
@@ -237,7 +242,7 @@
         <li>Delete individual items, or uninstall the App to clear on-device data</li>
         <li>Skip networked barcode lookup and enter everything manually</li>
         <li>Manage subscriptions in the App Store; lifetime refunds follow Apple’s policies</li>
-        <li>Contact us about access, correction, or deletion of server-side data we control (e.g. quota records)</li>
+        <li>Contact us about access, correction, or deletion of server-side data we control (e.g. lookup-limit records)</li>
       </ul>
     </section>
 
@@ -255,11 +260,11 @@
       <h2>9. Contact</h2>
       <p>For privacy requests:</p>
       <p><a href="mailto:funcgis@163.com">funcgis@163.com</a></p>
-      <p>Related: <a href="./en/support.html">Support</a> · <a href="../zh/privacy.html">中文隐私政策</a></p>
+      <p>Related: <a href="./support.html">Support</a> · <a href="../zh/private.html">中文隐私政策</a></p>
     </section>
 
     <footer>
-      © 2026 ShelfSpan (FreshDay) · Privacy Policy
+      © 2026 FreshQi (engineering name FreshDay) · Privacy Policy
     </footer>
   </div>
 </body>
