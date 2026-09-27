@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Haoqi — Privacy Policy</title>
+  <meta name="description" content="Haoqi (好奇搭子) Privacy Policy" />
+  <style>
+    :root {
+      --bg: #faf7f2;
+      --card: #ffffff;
+      --ink: #1c1917;
+      --muted: #78716c;
+      --accent: #e07a3d;
+      --accent-deep: #c45f28;
+      --line: rgba(28, 25, 23, 0.10);
+      --accent-soft: rgba(224, 122, 61, 0.12);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(1200px 600px at 10% -10%, #f3e4d4 0%, transparent 55%),
+        radial-gradient(900px 500px at 100% 0%, #f7ebe0 0%, transparent 50%),
+        var(--bg);
+      line-height: 1.65;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 40px 20px 72px; }
+    header {
+      margin-bottom: 28px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--line);
+    }
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 700;
+      font-size: 1.35rem;
+      color: var(--accent-deep);
+    }
+    .brand span {
+      width: 28px; height: 28px; border-radius: 8px;
+      background: linear-gradient(145deg, #f0a06a, var(--accent-deep));
+      box-shadow: 0 6px 16px rgba(196, 95, 40, 0.25);
+    }
+    h1 { font-size: 1.75rem; margin: 14px 0 8px; font-weight: 700; }
+    .meta { color: var(--muted); font-size: 0.92rem; }
+    .lang { float: right; font-size: 0.9rem; margin-top: 4px; }
+    nav.toc {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 16px 18px;
+      margin: 22px 0 28px;
+    }
+    nav.toc strong { display: block; margin-bottom: 8px; }
+    nav.toc a {
+      display: block;
+      color: var(--accent-deep);
+      text-decoration: none;
+      padding: 4px 0;
+    }
+    nav.toc a:hover { text-decoration: underline; }
+    section {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 22px 22px 18px;
+      margin-bottom: 16px;
+    }
+    h2 { font-size: 1.15rem; margin: 0 0 12px; color: var(--accent-deep); }
+    ul { padding-left: 1.2em; margin: 8px 0; }
+    li { margin: 6px 0; }
+    .note {
+      background: var(--accent-soft);
+      border-radius: 10px;
+      padding: 12px 14px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    a { color: var(--accent-deep); }
+    footer {
+      margin-top: 28px;
+      color: var(--muted);
+      font-size: 0.88rem;
+      text-align: center;
+    }
+    code { font-size: 0.9em; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <a class="lang" href="../zh/private.html">中文</a>
+      <div class="brand"><span></span>Haoqi</div>
+      <h1>Privacy Policy</h1>
+      <p class="meta">Effective: 2026-09-23 · Last updated: 2026-09-27<br />Applies to Haoqi / 好奇搭子 (engineering name WhySeed, Bundle ID <code>com.funcgis.WhySeed</code>).</p>
+    </header>
+
+    <nav class="toc">
+      <strong>Contents</strong>
+      <a href="#s1">1. Who we are</a>
+      <a href="#s2">2. Information we collect</a>
+      <a href="#s3">3. Cloud AI and TTS</a>
+      <a href="#s4">4. How we use information</a>
+      <a href="#s5">5. Permissions</a>
+      <a href="#s6">6. Children and sensitive topics</a>
+      <a href="#s7">7. Third parties</a>
+      <a href="#s8">8. Your choices</a>
+      <a href="#s9">9. Contact</a>
+    </nav>
+
+    <section id="s1">
+      <h2>1. Who we are</h2>
+      <p><strong>Haoqi (好奇搭子)</strong> is a parenting conversation coach. Answers are spoken by parents to children. The app is not designed for children to use on their own, and children are not asked to create accounts.</p>
+    </section>
+
+    <section id="s2">
+      <h2>2. Information we collect</h2>
+      <p>By default, diaries, settings, conversation streaks, letters, and repair notes stay on your device.</p>
+      <ul>
+        <li>Voice input: the system processes microphone audio for speech recognition;</li>
+        <li>Bedtime or birthday reminders: notification permission status is stored;</li>
+        <li>Purchases: Apple processes payment; we only learn entitlement results, not card numbers;</li>
+        <li>Cloud “I said it wrong” list: an <strong>anonymous on-device identifier</strong> (not your name or phone number) associates your repair posts and likes.</li>
+      </ul>
+      <p class="note">No account is required. We do not sell your diary or questions, and we do not build advertising profiles from them.</p>
+    </section>
+
+    <section id="s3">
+      <h2>3. Cloud AI and TTS</h2>
+      <p>When you submit a question that is not in the on-device sensitive set, the question text may be sent to the Haoqi backend and processed by Volcengine Doubao (Ark) to generate parent-facing talking points. TTS playback and repair suggestions may also send related text through the same backend.</p>
+      <p>Sensitive topics stay on-device by default. No request is made if you are offline or do not use these features.</p>
+    </section>
+
+    <section id="s4">
+      <h2>4. How we use information</h2>
+      <p>We use this information only to provide scripts, diary, notifications, membership, and repair features. We do not use it for ad tracking and do not sell it to third parties.</p>
+    </section>
+
+    <section id="s5">
+      <h2>5. Permissions</h2>
+      <ul>
+        <li><strong>Microphone / speech recognition</strong> — only when you tap voice input or recording.</li>
+        <li><strong>Notifications</strong> — only after you enable bedtime topics or birthday capsule reminders.</li>
+      </ul>
+      <p>You can revoke permissions anytime in system settings.</p>
+    </section>
+
+    <section id="s6">
+      <h2>6. Children and sensitive topics</h2>
+      <p>The app serves parents. Content about death, body, money, or family conflict is meant to help parents talk carefully; we do not collect data directly from children.</p>
+    </section>
+
+    <section id="s7">
+      <h2>7. Third parties</h2>
+      <p>Text you actively submit may be processed by our backend and Volcengine Doubao services. Payments are handled by Apple. Partners may process data only as needed to provide the service.</p>
+    </section>
+
+    <section id="s8">
+      <h2>8. Your choices</h2>
+      <p>You can delete diary and repair notes in the app, disable notifications, or uninstall the app to clear local data. For more help, see
+        <a href="./support.html">Support</a> or contact us below.</p>
+    </section>
+
+    <section id="s9">
+      <h2>9. Contact</h2>
+      <p>Privacy requests:</p>
+      <p><a href="mailto:funcgis@163.com">funcgis@163.com</a></p>
+      <p>Related: <a href="./support.html">Support</a> · <a href="../zh/private.html">中文隐私政策</a></p>
+    </section>
+
+    <footer>© 2026 Haoqi (WhySeed) · Privacy Policy</footer>
+  </div>
+</body>
+</html>
