@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>好奇搭子 — 技术支持</title>
+  <meta name="description" content="好奇搭子 App 技术支持" />
+  <style>
+    :root {
+      --bg: #faf7f2;
+      --card: #ffffff;
+      --ink: #1c1917;
+      --muted: #78716c;
+      --accent: #e07a3d;
+      --accent-deep: #c45f28;
+      --line: rgba(28, 25, 23, 0.10);
+      --accent-soft: rgba(224, 122, 61, 0.12);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(1200px 600px at 10% -10%, #f3e4d4 0%, transparent 55%),
+        radial-gradient(900px 500px at 100% 0%, #f7ebe0 0%, transparent 50%),
+        var(--bg);
+      line-height: 1.65;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 40px 20px 72px; }
+    header {
+      margin-bottom: 28px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--line);
+    }
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 700;
+      font-size: 1.35rem;
+      color: var(--accent-deep);
+    }
+    .brand span {
+      width: 28px; height: 28px; border-radius: 8px;
+      background: linear-gradient(145deg, #f0a06a, var(--accent-deep));
+      box-shadow: 0 6px 16px rgba(196, 95, 40, 0.25);
+    }
+    h1 { font-size: 1.75rem; margin: 14px 0 8px; font-weight: 700; }
+    .meta { color: var(--muted); font-size: 0.92rem; }
+    .lang { float: right; font-size: 0.9rem; margin-top: 4px; }
+    nav.toc {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 16px 18px;
+      margin: 22px 0 28px;
+    }
+    nav.toc strong { display: block; margin-bottom: 8px; }
+    nav.toc a {
+      display: block;
+      color: var(--accent-deep);
+      text-decoration: none;
+      padding: 4px 0;
+    }
+    nav.toc a:hover { text-decoration: underline; }
+    section {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 22px 22px 18px;
+      margin-bottom: 16px;
+    }
+    h2 { font-size: 1.15rem; margin: 0 0 12px; color: var(--accent-deep); }
+    ul { padding-left: 1.2em; margin: 8px 0; }
+    li { margin: 6px 0; }
+    .note {
+      background: var(--accent-soft);
+      border-radius: 10px;
+      padding: 12px 14px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    a { color: var(--accent-deep); }
+    footer {
+      margin-top: 28px;
+      color: var(--muted);
+      font-size: 0.88rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <a class="lang" href="../en/support.html">English</a>
+      <div class="brand"><span></span>好奇搭子</div>
+      <h1>技术支持</h1>
+      <p class="meta">父母的回答教练 · 更新日期：2026-09-27</p>
+    </header>
+
+    <nav class="toc">
+      <strong>目录</strong>
+      <a href="#s1">1. 关于好奇搭子</a>
+      <a href="#s2">2. 快速开始</a>
+      <a href="#s3">3. 功能说明</a>
+      <a href="#s4">4. 会员与课包</a>
+      <a href="#s5">5. 系统权限</a>
+      <a href="#s6">6. 常见问题</a>
+      <a href="#s7">7. 联系我们</a>
+    </nav>
+
+    <section id="s1">
+      <h2>1. 关于好奇搭子</h2>
+      <p>「好奇搭子」（英文名 Haoqi，工程名 WhySeed）是一款面向父母的 iOS 应用：帮你把孩子的「为什么」变成可以说出口的分龄讲法、追问与睡前话题。答案始终由父母亲口告诉孩子，应用不对着孩子直接讲课，也不要求孩子注册账号。</p>
+    </section>
+
+    <section id="s2">
+      <h2>2. 快速开始</h2>
+      <ol>
+        <li>打开 App，进入底部「提问」。</li>
+        <li>用文字或语音输入孩子的问题，选择年龄段。</li>
+        <li>查看讲法、追问与「一起查查」话术；可点「先听一遍」试听。</li>
+        <li>愿意的话，把问答记入「日记」，或在「成长树」里浇水留下陪伴痕迹。</li>
+      </ol>
+    </section>
+
+    <section id="s3">
+      <h2>3. 功能说明</h2>
+      <ul>
+        <li><strong>提问讲法</strong>：分龄台词卡 + 追问引导。</li>
+        <li><strong>先听一遍</strong>：豆包语音试听（需网络）。</li>
+        <li><strong>今晚话题</strong>：睡前十分钟的小话题。</li>
+        <li><strong>好奇心日记</strong>：记录问答与孩子原话（可录音）。</li>
+        <li><strong>成长树</strong>：用浇水见证交流积累。</li>
+        <li><strong>我说错了</strong>：找补讲法，可参考云端精选示例。</li>
+        <li><strong>敏感话题</strong>：生死、身体、金钱等更谨慎的讲法思路（默认本机）。</li>
+      </ul>
+    </section>
+
+    <section id="s4">
+      <h2>4. 会员与课包</h2>
+      <p>订阅与主题课包通过 Apple 应用内购买完成，价格以购买时展示为准。续费、取消与退款遵循 App Store 规则。</p>
+      <p class="note">管理订阅：iPhone「设置 → Apple ID → 订阅」。点「恢复购买」只会恢复当前 Apple ID 已购买的权益。</p>
+    </section>
+
+    <section id="s5">
+      <h2>5. 系统权限</h2>
+      <ul>
+        <li><strong>麦克风 / 语音识别</strong>：口述问题、日记录音。</li>
+        <li><strong>通知</strong>：睡前话题、生日挖瓶提醒（需你主动开启）。</li>
+      </ul>
+      <p>可随时在「设置 → 好奇搭子」中关闭；关闭后对应功能不可用，不影响已保存的本地数据。</p>
+    </section>
+
+    <section id="s6">
+      <h2>6. 常见问题</h2>
+      <p><strong>为什么提示「本地讲法」？</strong><br />敏感话题默认本机处理；网络异常或后端暂时不可用时也会回退本地占位，可稍后重试。</p>
+      <p><strong>语音像机械音？</strong><br />请确认网络正常，并使用 TestFlight / App Store 正式包（Debug 配置可能不同）。</p>
+      <p><strong>换机后日记还在吗？</strong><br />当前版本以本机数据为主，换机前请自行备份你看重的内容。</p>
+    </section>
+
+    <section id="s7">
+      <h2>7. 联系我们</h2>
+      <p>邮件：<a href="mailto:funcgis@163.com">funcgis@163.com</a></p>
+      <p>来信请尽量附上：iOS 版本、App 版本、问题截图与复现步骤。</p>
+      <p>相关文档：<a href="./private.html">隐私政策</a> · <a href="../en/support.html">English Support</a></p>
+    </section>
+
+    <footer>© 2026 好奇搭子（WhySeed）· 技术支持</footer>
+  </div>
+</body>
+</html>
