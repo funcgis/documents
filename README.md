@@ -18,3 +18,9 @@ All project documentation
 - [中文支持页面](./shadowbudget/zh/support.html)
 - [English Privacy](./shadowbudget/en/private.html)
 - [English Support](./shadowbudget/en/support.html)
+
+## WhySeed（好奇搭子）
+- [中文隐私政策](./WhySeed/zh/private.html)
+- [中文支持页面](./WhySeed/zh/support.html)
+- [English Privacy](./WhySeed/en/private.html)
+- [English Support](./WhySeed/en/support.html)
